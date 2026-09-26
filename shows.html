@@ -18,9 +18,10 @@ a { color:#00ff00; }
 .uscita p { margin:0 0 8px 0; font-size:14px; }
 .uscita p.traccia { margin:0 0 2px 0; font-size:12px; }
 .uscita audio { width:100%; display:block; margin-bottom:8px; }
-#main { max-width:900px; }
-.griglia { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; align-items:start; }
+#main { max-width:1100px; }
+.griglia { display:grid; grid-template-columns:repeat(4, 1fr); gap:20px; align-items:start; }
 .flyer { width:100%; height:auto; display:block; }
+@media (max-width:900px) { .griglia { grid-template-columns:repeat(3, 1fr); } }
 @media (max-width:600px) { .griglia { grid-template-columns:repeat(2, 1fr); gap:10px; } }
 </style>
 </head>
